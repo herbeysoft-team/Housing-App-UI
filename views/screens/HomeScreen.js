@@ -49,11 +49,11 @@ const HomeScreen = ({navigation}) =>
             <Icon name="tune" color={COLORS.white} size={25} />
           </View>
         </View>
-
+          {/* Options */}
         <ListOptions/>  
-
+          {/* Categories */}
         <ListCategories />
-
+          {/* List of Items in a particular category */}
         <FlatList
           snapToInterval={width - 20}
           showsHorizontalScrollIndicator={false}

@@ -16,6 +16,7 @@ const { width } = Dimensions.get("screen");
 
 const DetailsScreen = ({ navigation, route }) => {
   const house = route.params;
+  // console.log((house))
   const InteriorCard = ({ interior }) => {
     return <Image source={interior} style={style.interiorImage} />;
   };
